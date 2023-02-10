@@ -114,6 +114,7 @@ elif sys.argv[1] == "notun" and sys.argv[2] == "yazisini" and sys.argv[3] == "si
 
 if (sys.argv[1] == "salam"):
     print("Salam, necə kömək edə bilərəm?")
+    
 elif sys.argv[1] == "necesen":
     print("Mən süni intellektəm, duyğularım yoxdur. Sizə necə köməkçi edə bilərəm?")
     print("Siz necəsiniz?")
