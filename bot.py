@@ -111,3 +111,24 @@ elif sys.argv[1] == "notun" and sys.argv[2] == "yazisini" and sys.argv[3] == "si
     f = open(input("not adı: "), "r+")
     f.seek(0)
     f.truncate()
+
+if (sys.argv[1] == "salam"):
+    print("Salam, necə kömək edə bilərəm?")
+elif sys.argv[1] == "necesen":
+    print("Mən süni intellektəm, duyğularım yoxdur. Sizə necə köməkçi edə bilərəm?")
+    print("Siz necəsiniz?")
+
+if (sys.argv[1] == "nomremi" and sys.argv[2] == "duzelt"):
+    a = []
+    a.append(input("Nömrəni qeyd et: "))
+
+    def decor(fn):
+        def inner(a):
+            fn("+994" +" "+ c[1]+ c[2] +" " + c[3]+ c[4] + c[5]  +" "+c[6]+c[7] +" "+c[-2:] for c in a)
+        return inner
+
+    @decor
+    def number(a):
+        print(*a)
+
+    number(a)
